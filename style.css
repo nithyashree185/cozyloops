@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #faf7fc;
+    color: #333;
+}
+
+.top {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #faf7fc;
+}
+
+
+.bg-section {
+    height: 300px;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.top h1 {
+    font-size: 36px;
+    color: #6b5ca5;
+}
+
+.tagline {
+    margin: 10px 0;
+    color: #555;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #cbb7e2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #b39ddb;
+}
+
+.small {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+    color: #6b5ca5;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    background-color: #ffffff;
+    width: 260px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #6b5ca5;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.about {
+    padding: 40px 20px;
+    background-color: #f1ebf7;
+    text-align: center;
+}
+
+.about h2 {
+    color: #6b5ca5;
+    margin-bottom: 15px;
+}
+
+.about p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.contact {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #6b5ca5;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e6dff0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bg-section {
+        height: 180px;
+    }
+}
